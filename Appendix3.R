@@ -1,4 +1,4 @@
-#tab page 26
+#tab page 26 wavelet and SRS errors for different simple CDFs
 rweib=rweibull;rlnor=rlnorm;rgamm=rgamma;rlogi=rlogis;
 pweib=pweibull;plnor=plnorm;pgamm=pgamma;plogi=plogis;
 escalw=function(sig,resol=3,x){
