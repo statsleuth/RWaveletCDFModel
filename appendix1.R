@@ -1,4 +1,4 @@
-#set.seed(364575)
+#set.seed(364575). pnorm committed error while approacing with 7 resolution wavelet
 pck=c("goftest","data.table","latex2exp","gridExtra","MASS","mvtnorm",
       "Morpho","wavethresh","Metrics","crayon")
 #install.packages(pck);
