@@ -1,3 +1,8 @@
+#set.seed(364575)
+pck=c("goftest","data.table","latex2exp","gridExtra","MASS","mvtnorm",
+      "Morpho","wavethresh","Metrics","crayon")
+#install.packages(pck);
+lapply(pck[], library, character.only = TRUE,quietly=TRUE)
 mr=2^12;lev=7;#maxreso;
 escalw=function(sig,resol=3,x){
   dd <- wd(sig, filter.number=1, family= "DaubExPhase" );
