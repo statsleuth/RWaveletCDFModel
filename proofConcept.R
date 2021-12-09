@@ -1,3 +1,7 @@
+pck=c("goftest","data.table","latex2exp","gridExtra","MASS","mvtnorm",
+      "Morpho","wavethresh","Metrics","crayon")
+#install.packages(pck);
+lapply(pck[], library, character.only = TRUE,quietly=TRUE)
 n=2^11;xseq=seq(-3.9999,4, 8/n);ycdf=pnorm(xseq);ns=128;
 graph=function(rmin=2,rmax=11){
   par(mar=c(5,5,4,4)+.4);
