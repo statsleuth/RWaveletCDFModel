@@ -55,5 +55,4 @@ Byte=unlist(lapply(HDL, extractSizW));
 ######distances to wavlet #####################################
 wdistKS =unlist(lapply(HDL,KSf,pnorm));  wNdistKS =Normalise(wdistKS);
 
-
-graph()
+graph();
